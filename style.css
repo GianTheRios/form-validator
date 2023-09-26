@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:wght@100;500;700&family=Nunito:wght@400;600&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(177, 184, 194);
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.container-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-control label {
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+input:valid {
+  border: 1px solid #2ea45d;
+}
+
+input:invalid {
+  border: 1px solid #e74c3c;
+}
+
+.form-control input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-control input:valid {
+  border-color: #2ea45d;
+}
+
+.form-control input:invalid {
+  border-color: #e74c3c;
+}
+
+
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  margin-top: 15px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+button:active {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: translateY(2px);
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border: 1px solid #000000;
+  width: 375px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+
+}
+
+.message-container:hover {
+  background-color: rgba(57, 141, 237, 0.9);
+  color: white;
+}
